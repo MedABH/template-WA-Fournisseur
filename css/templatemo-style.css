@@ -90,6 +90,7 @@ footer { padding: 15px; }
 	width: 25px;
 	height: 25px;
 	border: 3px solid #13895F;
+	background-color: white;
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -186,7 +187,7 @@ footer { padding: 15px; }
 	padding: 30px;
 	transition: all 0.3s ease;
 }
-.templatemo-left-nav .fa { margin-right: 15px; }
+.templatemo-left-nav .fa .fas { margin-right: 15px; }
 
 /* 3. Right Column
 ------------------------------*/
@@ -635,8 +636,8 @@ input[type="radio"]:checked + label span {
 		right: 10px;
 		z-index: 1000;
 	}
-	.mobile-menu-icon:hover .fa { background-color: rgba(19,137,95,0.8); }
-	.mobile-menu-icon .fa {
+	.mobile-menu-icon:hover .fa .fas { background-color: rgba(19,137,95,0.8); }
+	.mobile-menu-icon .fa .fas {
 		color: #fff;
 		background-color: rgba(19,137,95,0.4);
 		font-size: 1.5em;
