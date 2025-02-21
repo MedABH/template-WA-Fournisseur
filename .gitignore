@@ -1,0 +1,11 @@
+# IDE/Editor specific files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Node.js (if you're using it for tools like npm, but not usually for static HTML/CSS/JS)
+node_modules/
+npm-debug.log
